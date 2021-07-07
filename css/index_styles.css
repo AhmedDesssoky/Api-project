@@ -1,0 +1,54 @@
+
+body
+{
+    font-family: "segoe ui light";
+}
+
+.item
+
+{
+    cursor: pointer;
+}
+
+.img-caption
+{
+    background-color: #fff;
+    width: 80%;
+    bottom: 30px;
+    left: 10%;
+    padding: 10px;
+}
+
+#lightBoxContainer
+{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color:rgba(0, 0, 0,0.54);
+    display: none;
+    
+}
+
+#lightBoxItem
+{
+    height: 450px;
+    width: 50%;
+    background-image: url(../images/portfolio-1.jpg);
+    background-size: cover;
+    
+}
+
+#close
+{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+}
+
+.cursor
+{
+    cursor: pointer;
+}
